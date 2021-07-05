@@ -15,20 +15,23 @@
       "
     >
       <div>
-        <h1>JavaScript APIs</h1>
-        <p>
-          Open the Browser Console to view your work (Right-Click => Inspect or
-          fn+F12)
+        <h1>GIF Search</h1>
+        <p style="font-size: 25px; font-weight: bold; color: green;">
+          Type in any keyword below to search for a gif!
         </p>
-        <div id="inputContainer">
+        <div id="inputContainer" style="border: 2px solid black; padding: 5px; margin-top: 25px; margin-bottom: 25px;">
           <!-- Add label, input, and button HERE -->
+          <label for="input" style="font-weight: bold; font-size: large;">Input search keyword here!</label>
+          <input autofocus type="text" id="input" >
+          <button id="btn" style="color: white; background-color: red;">Search</button>
         </div>
 
         <div id="imageContainer" style="max-width: 680px">
           <img
-            src="#"
+            id="img"
+            src="https://media.giphy.com/media/dW6pIawajy6Mtd8aSA/giphy.gif"
             alt="Giphy Selection"
-            style="width: 100%; height: auto"
+            style="width: 100%; height: auto; border: 3px solid green;"
           />
         </div>
       </div>
